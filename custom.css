@@ -1,0 +1,212 @@
+/* Global CSS variables */
+:root {
+    --spacing-company: 3rem;
+    --font-weight: 400;
+    --border-radius: 0;
+}
+
+/* Typography */
+h2,
+h3,
+h5,
+hgroup> :last-child {
+    font-weight: 300;
+    color: #ffff;
+}
+
+[role=button],
+button {
+    background-color: #a46e8a;
+    border-color: #a46e8a;
+}
+
+body {
+    background-color: #85586F;
+}
+
+small {
+    color: rgb(255, 255, 255);
+}
+
+/* Header */
+.hero {
+    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.3)), url("assets/sascha-eremin-DNQ-M93tHmA-unsplash-3000x1000.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header {
+    padding: var(--spacing-company) 0;
+}
+
+header hgroup> :last-child {
+    color: var(--h3-color);
+}
+
+header hgroup {
+    margin-bottom: var(--spacing-company);
+}
+
+/* Nav */
+summary[role="link"].contrast:is([aria-current], :hover, :active, :focus) {
+    background-color: transparent;
+    color: var(--contrast-hover);
+}
+
+/* Navbar */
+
+.nav-link{
+    display: flex;
+    padding-top: 15px;
+}
+
+.nav-items{
+    padding-right: 15px;
+}
+
+.nav-items li:hover{
+    background-color: rgb(239, 239, 239);
+}
+#nav-title {
+    margin: 0 0 0 15px;
+    
+}
+
+
+.nav-toggler li{
+    padding: 0%;
+    margin: 0 15px 0 0;
+}
+
+
+.nav-toggler{
+    display: none;
+    align-self: flex-end;
+    position: absolute;
+    cursor: pointer;
+    
+}
+
+@media only screen and (max-width: 1080px) {
+
+.nav-link{
+    flex-direction: column;
+}
+
+.nav-items{
+    display: none;
+
+}
+
+.nav-items a{
+    
+    background-color: #a46e8a;
+}
+.nav-items :where(a):not(.contrast){
+    color: white;
+}
+
+
+.nav-toggler{
+    display: initial;
+}
+
+.nav-toggleshow{
+    display: block;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+  }
+
+/* Main */
+@media (min-width: 992px) {
+    main .grid {
+        grid-column-gap: var(--spacing-company);
+        grid-template-columns: auto 25%;
+    }
+
+    
+
+   
+}
+    
+
+form.grid {
+    grid-row-gap: 0;
+}
+
+/* Aside nav */
+aside img {
+    margin-bottom: 0.25rem;
+}
+
+aside p {
+    margin-bottom: var(--spacing-company);
+    line-height: 1.25;
+}
+
+aside a {
+    color: #ffff;
+}
+
+address,
+blockquote,
+dl,
+figure,
+form,
+ol,
+p,
+pre,
+table,
+ul {
+    margin-top: 0;
+    margin-bottom: var(--typography-spacing-vertical);
+    color: hsl(0deg 0% 100%);
+    font-style: normal;
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
+}
+
+/* Footer */
+
+footer {
+    background-color: #a46e8a;
+    text-align: left;
+}
+
+
+
+
+footer img {
+    height: 150px;
+    width: 150px;
+}
+
+.last-part {
+    background-color: #85586F;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+footer div.container {}
+
+/* a:not(.contrast) {
+    color: #a46e8a;
+}
+
+a:hover:not(.contrast){
+    color: #85586F;
+} */
+
+nav :where(a):not(.contrast) {
+    color: #a46e8a;
+}
