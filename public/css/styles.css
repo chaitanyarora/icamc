@@ -1,0 +1,369 @@
+/* Navbar */
+
+nav.navbar-color {
+    background-color: #85586F;
+    font-family: "Domine", Arial, sans-serif;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: white;
+    background-color: transparent;
+    border: var(--bs-border-width) solid white;
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+/* Main Title Section */
+
+.main-title-section {
+    /* background-image: url(https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3R8ZW58MHx8MHx8&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: fixed; */
+
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 27%, rgba(133, 88, 111, 1) 71%, rgba(208, 184, 168, 1) 100%);
+    align-content: center;
+
+}
+
+.main-title {
+    font-family: "Domine", Arial, sans-serif;
+    color: #ffffff;
+    display: inline;
+    text-align: center;
+    padding: 3em 0;
+}
+
+.main-title-section .row{
+  max-width: 100%;
+}
+
+
+.main-title h3 {
+    margin: 1% 10% 0;
+}
+
+/* Carousel Section */
+.carousel-section{
+  background-color: #F8EDE3;
+}
+#carousel-part{
+  margin: 2rem;
+}
+
+.carousel-inner img{
+  /* height: 10rem;
+  width: 10rem; */
+}
+
+/* About Section */
+
+.about-section {
+    background-color: #F8EDE3;
+}
+
+.about-row {
+    display: block;
+    margin: auto auto 0;
+    width: 70%;
+    align-items: center;
+}
+
+
+
+.about-row .col p,
+h1{
+
+    text-align: center;
+}
+
+.about-row img{
+  width: 90%;
+}
+/* .about-row .col h1 {
+    padding-top: 0.5%;
+}
+
+.about-row .col p {
+    padding: 0.5% 0;
+    margin: 0.5% 10%;
+} */
+
+#about-home h1, p{
+text-decoration-color: white;
+}
+
+/* Guidelines Section */
+
+.guidelines-section {
+    background-color: #F8EDE3;
+}
+
+.guidelines-content {
+    margin: 0 auto 0;
+    width: 65%;
+}
+
+.guidelines-content .col p {
+    padding: 5% 0;
+}
+
+.guidelines-content .col h1 {
+    padding-top: 5%;
+
+}
+
+.guideline-buttons {
+    margin: auto;
+    width: 50%;
+    max-width: 50%;
+    padding-bottom: 2%;
+}
+
+/* Dates */
+
+.dates-section{
+background-color: #F8EDE3;
+
+}
+
+.dates-content{
+  margin: auto;
+  width: 50%;
+background-color: #F8EDE3;
+text-align: center;
+}
+
+
+/* Registration */
+
+.registration-section{
+  background-color: #F8EDE3;
+}
+
+.registration-section-content{
+
+}
+
+.registration-section-content h1{
+    margin-bottom: 1rem;
+ }
+
+
+/* Call For Papers*/
+
+.call-for-papers-section {
+    background-color: #F8EDE3;
+    padding: 2rem;
+}
+
+.call-for-papers-content {
+
+    display: block;
+    margin: auto;
+    width: 65%;
+}
+
+.gajab {
+    align-items: right;
+}
+
+
+
+/* .spacing>*+* {
+    margin-top: var(--spacer, 2rem);
+} */
+
+
+
+
+
+
+
+footer {
+    background-color: #a46e8a;
+      width: 100%;
+    /* position: sticky;
+
+    bottom: 0;
+    left: 0;
+    right: 0; */
+}
+
+footer img{
+  height: 150px;
+  width: 150px;
+}
+
+.aakhri {
+    background-color: #85586F;
+}
+
+@media (max-width: 768px) {
+
+    .navbar-items {
+        align-items: center;
+    }
+
+    .main-title {
+        max-width: none;
+        text-align: center;
+    }
+
+    .main-title h3 {
+        margin: 3% 5% 0;
+    }
+
+
+    .about-row {
+        display: block;
+        margin: 0 auto 0;
+        width: 90%;
+    }
+
+    /* .about-row .col p,
+    h1 {
+        max-width: none;
+        margin: 0.5% 7%;
+        text-align: center;
+    } */
+
+    /* .about-row .col p {
+        padding: 5% 0;
+    }
+
+    .about-row .col h1 {
+        padding-top: 5%;
+    } */
+
+
+
+
+    .guidelines-content {
+
+        margin: 2rem auto;
+        padding: 2rem;
+        width: 90%;
+    }
+
+    .guidelines-content h1,
+    p {
+
+        max-width: none;
+        margin: 0.5% 7%;
+        text-align: center;
+    }
+
+    .guidelines-content .col p {
+        padding: 5% 0;
+    }
+
+    .guidelines-content .col h1 {
+        padding-top: 5%;
+    }
+
+    .guideline-buttons {
+        padding-bottom: 5%;
+    }
+
+
+    .dates-section{
+    background-color: #F8EDE3;
+
+
+    }
+
+    .dates-content{
+      margin: auto;
+      width: 95%;
+
+    }
+
+
+    .call-for-papers-content {
+
+        display: block;
+        margin: auto;
+        width: 90%;
+    }
+
+
+
+
+
+
+}
+
+.marquee {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    background: #fefefe;
+    color: #333;
+    border: 1px solid #4a4a4a;
+}
+
+.marquee p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -moz-animation: scroll-left 0.5s linear infinite;
+    -webkit-animation: scroll-left 0.5s linear infinite;
+    animation: scroll-left 5s linear infinite;
+}
+
+@-moz-keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(100%);
+    }
+
+    100% {
+        -moz-transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes scroll-left {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+
+    100% {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+
+    100% {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
