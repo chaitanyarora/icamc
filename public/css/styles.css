@@ -1,0 +1,177 @@
+/* Navbar */
+
+nav.navbar-color {
+    background-color: #85586F;
+    font-family: "Domine", Arial, sans-serif;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: white;
+    background-color: transparent;
+    border: var(--bs-border-width) solid white;
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+/* Main Title Section */
+
+.main-title-section {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 27%, rgba(133, 88, 111, 1) 71%, rgba(208, 184, 168, 1) 100%);
+}
+
+.main-title {
+    font-family: "Domine", Arial, sans-serif;
+}
+
+/* Body Background */
+
+.body-background {
+    background-color: #f4e5d7;
+}
+
+.body-text-background{
+    background-color: #F8EDE3;
+    width: 75%;
+}
+
+.body-text-background-other{
+    background-color: #F8EDE3;
+    width: 75%;
+}
+/* Paper Submission Link */
+
+.btn{
+    background-color: #85586F;
+}
+
+.btn:hover {
+    background-color: #a46e8a;
+}
+
+/* Carousel Section */
+.carousel-section{
+  background-color: #F8EDE3;
+}
+
+.carousel-inner {
+    max-width: fit-content;
+    max-height: 600px !important;
+}
+
+/* Dates */
+
+.dates-section{
+background-color: #F8EDE3;
+
+}
+
+.dates-content{
+  margin: auto;
+  width: 50%;
+background-color: #F8EDE3;
+text-align: center;
+}
+
+
+
+/* Call For Papers*/
+
+.call-for-papers-section {
+    background-color: #F8EDE3;
+    padding: 2rem;
+}
+
+.call-for-papers-content {
+
+    display: block;
+    margin: auto;
+    width: 65%;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #a46e8a;
+    width: 100%;
+}
+
+footer img{
+  height: 150px;
+  width: 150px;
+}
+
+.footer-bold{
+    background-color: #85586F;
+}
+
+.spacing-responsive  {
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+.list-inner{
+    list-style-type: none;
+    padding: 0;
+}
+
+.table{
+    width: 50%;
+}
+
+.college-image{
+    max-width: 50%;
+    height: 50%;
+}
+
+@media (max-width: 768px) {
+
+    .carousel-inner {
+    max-width: fit-content;
+    max-height: 100px;
+}
+
+    .spacing-responsive {
+        padding: 0 0.25rem 0 0.25rem;
+    }
+    
+    .navbar-items {
+        align-items: center;
+    }
+
+    .body-text-background{
+        width: 95%;
+    }
+
+    
+    .body-text-background-other{
+        width: 95%;
+    }
+
+    .table{
+        width: auto;
+    }
+
+    .college-image{
+
+    max-width: 100%;
+    height: auto;
+
+}
+
+}
+
